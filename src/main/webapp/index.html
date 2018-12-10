@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Hire</title>
+</head>
+<body>
+	<table>
+	  <tr>
+	    <th>Cars</th>
+	    <th>Customers</th> 
+	    <th>Bookings</th>
+	  </tr>
+	  <tr>
+	    <td><a href="/cars">List cars</a></td>
+	    <td><a href="/customers">List customers</a></td>
+	    <td><a href="/bookings">List bookings</a></td>
+	  </tr>
+	  <tr>
+	    <td><a href="/addCar">Add car</a></td>
+	    <td><a href="/addCustomer">Add customer</a></td>
+	    <td><a href="/createBooking">Create booking</a></td>
+	  </tr>
+	</table>   
+	<br>
+	<a href="/logout">Logout</a>
+</body>
+</html>
